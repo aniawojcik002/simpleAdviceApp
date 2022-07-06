@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 1000px;
+  padding: 100px;
+  border-radius: 20px;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+}
+
+img.divider {
+ 
+}
+
+
+img.roll-dice {
+  position: absolute;
+  width: 40px;
+  bottom:-15px;
+  padding: 10px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
