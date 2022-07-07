@@ -12,21 +12,25 @@
 
   
   <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
 
 <section class="container">
   <div class="advice">
     <p class="advice-description">
-      Advice #<span class="advice-slip-id">number</span>
+      Advice #<span class="advice-slip-id"></span>
     </p>
-    <p class="advice-value">Advice goes here</p>
+    <div class="advice-container">
+      <p class="advice-value">Advice</p>
+    </div>
     <img class="divider" src="/images/pattern-divider-mobile.svg" alt="Divider">
 
     <img class="roll-dice" src="/images/icon-dice.svg" alt="Icon dice">
