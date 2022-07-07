@@ -23,8 +23,8 @@ body {
 .advice {
   background-color: hsl(217, 19%, 24%);
   width: 450px;
-  height: 300px;
-  padding: 50px 20px 10px 20px;
+  /* height: 300px; */
+  padding: 50px 20px 0px 20px;
   border-radius: 10px;
   position: relative; 
   display: flex;
@@ -55,21 +55,25 @@ body {
 }
 
 img {
-  /* display: block; */
+  display: block;
 }
 
 img.divider {
  display: block;
 }
 
+.roll-dice-container {
+  background-color: hsl(150, 100%, 66%);
+  padding: 13px;
+  transform: translateY(50%);
+  border-radius: 30px;
+
+}
+.roll-dice-container:hover {
+  box-shadow: 0 0 1rem hsl(150, 100%, 66%);
+
+}
 
 img.roll-dice {
-  position: absolute;
-  width: 40px;
-  bottom:-15px;
-  padding: 10px;
-  background-color: hsl(150, 100%, 66%);
-  border-radius: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 16px;
 }
