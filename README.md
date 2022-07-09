@@ -1,4 +1,4 @@
-[Click here to see demo app] [voluble-brigadeiros-5059c7.netlify.app](url)
+[[Click here to see demo app]]([Click here to see app]) [voluble-brigadeiros-5059c7.netlify.app](url)
 # Frontend Mentor - Advice generator app
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
