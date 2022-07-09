@@ -32,6 +32,12 @@ body {
   flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+  .advice {
+    max-width: 300px;
+  }
+}
+
 .advice-description {
   color: hsl(150, 100%, 66%);
   font-size: 1rem;
@@ -78,17 +84,10 @@ img.divider {
   
 }
 
-button {
+.roll-dice button {
   cursor: pointer;
   border: none;
   background-color: transparent;
-}
-
-
-.fa-spin-pulse {
-  width: 16px;
-  height: 16px;
-  font-weight:900;
 }
 
 .loading {
