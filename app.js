@@ -1,10 +1,10 @@
+
 'use strict'
 
 const adviceP = document.querySelector(".advice-value");
 const number = document.querySelector(".advice-slip-id");
 const rollDice = document.querySelector(".roll-dice-container");
 const loading = document.querySelector('.loading');
-
 
 async function fetchAdviceHandler() {
   try {
