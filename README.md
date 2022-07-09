@@ -1,4 +1,4 @@
-Click link to see page:  [voluble-brigadeiros-5059c7.netlify.app](url)
+Click link to see page:  [https://voluble-brigadeiros-5059c7.netlify.app/](url)
 # Frontend Mentor - Advice generator app
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
